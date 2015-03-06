@@ -1,0 +1,27 @@
+{
+  "type" : "record",
+  "name" : "stocks_raw",
+  "namespace" : "com.example.mrtest",
+  "fields" : [ {
+    "name" : "Symbol",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Date",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Open",
+    "type" : [ "null", "double" ]
+  }, {
+    "name" : "High",
+    "type" : [ "null", "double" ]
+  }, {
+    "name" : "Low",
+    "type" : [ "null", "double" ]
+  }, {
+    "name" : "Close",
+    "type" : [ "null", "double" ]
+  }, {
+    "name" : "Volume",
+    "type" : [ "null", "long" ]
+  } ]
+}

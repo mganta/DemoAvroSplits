@@ -1,0 +1,15 @@
+{
+  "type" : "record",
+  "name" : "StockRanges",
+  "namespace" : "com.example.mrtest",
+  "fields" : [ {
+    "name" : "Symbol",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Low",
+    "type" : [ "null", "double" ]
+  }, {
+    "name" : "High",
+    "type" : [ "null", "double" ]
+  }]
+}
